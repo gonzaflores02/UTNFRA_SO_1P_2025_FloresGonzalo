@@ -14,3 +14,6 @@ echo "${DISCO}2  $HOME/Astronomia/Planeta/Orbita  ext4  defaults  0  0" | sudo t
 echo "${DISCO}5  $HOME/Astronomia/Cometa/Cola  ext4  defaults  0  0" | sudo tee -a /etc/fstab
 echo "${DISCO}6  $HOME/Astronomia/Cometa/Gravedad  ext4  defaults  0  0" | sudo tee -a /etc/fstab
 echo "${DISCO}7  $HOME/Astronomia/Cometa/Orbita  ext4  defaults  0  0" | sudo tee -a /etc/fstab
+
+sudo systemctl daemon-reload
+sudo mount -a

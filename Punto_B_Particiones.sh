@@ -30,6 +30,8 @@ n
 w
 EOF
 
+sudo partprobe $DISCO
+
 echo 
 echo "Disco particionado"
 echo
